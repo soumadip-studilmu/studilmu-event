@@ -1606,3 +1606,300 @@ footer.footer .footer_bottom p a:hover {
     margin-top: 25px;
     width: 60%;
 }
+
+.mindmap {
+    float: left;
+    width: 100%;
+    margin: 25px 0;
+    position: relative;
+}
+
+.map {
+    float: left;
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 10;
+    text-align: center;
+    background: url(../images/center-circle-bg.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 539px;
+    height: 527px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.center h2 {
+    font-size: 32px;
+    color: #500003;
+    width: 100%;
+}
+
+.program-list {
+    float: left;
+    width: 100%;
+    min-height: 527px;
+}
+
+.left-programs {
+    float: left;
+    width: 30%;
+    text-align: right;
+    position: relative;
+    z-index: 100;
+}
+.right-programs {
+    float: right;
+    width: 31%;
+    position: relative;
+    z-index: 100;
+}
+.program {
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 200;
+    margin-bottom: 0;
+}
+
+.program li {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.program li a {
+    float: left;
+    width: 100%;
+    background: #d3d3d3;
+    padding: 5px;
+    font-size: 19px;
+    color: #222;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid #666;
+}
+.program li a .number {
+    float: right;
+    background: #0365b1;
+    border-radius: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.program li a .name {
+    float: right;
+    margin-right: 16px;
+    margin-top: 3px;
+}
+.right-programs .program li {
+    text-align: left;
+}
+
+.right-programs .program li .number {
+    float: left;
+}
+
+.right-programs .program li .name {
+    float: left;
+    margin-left: 16px;
+}
+
+ .program li:nth-child(2) {
+    top: 27px;
+}
+.program li:nth-child(3) {
+    top: 46px;
+}
+
+.program li:nth-child(4) {
+    top: 66px;
+}
+
+.program li:nth-child(5) {
+    top: 85px;
+}
+
+.program li:nth-child(6) {
+    top: 106px;
+}
+
+.program li:nth-child(7) {
+    top: 127px;
+}
+
+.program li:nth-child(8) {
+    top: 148px;
+}
+    .program li a:hover {
+    background: #084b7c;
+    color:#ffffff;
+}
+.program li a:hover .number {
+    background:#ffffff;
+    color:#084b7c;
+}
+
+.customized{
+    background: url(../images/customized.png) no-repeat left top;
+    float: left;
+    width: 167px;
+    height: 107px;
+}
+
+.customized span {
+    transform: rotate(-11deg);
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    color: #373737;
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: normal;
+    margin-left: 15px;
+}
+
+.program-details {
+    float: left;
+    width: 100%;
+    margin: 25px 0;
+}
+
+.program-details .left {
+    float: left;
+    width: 100%;
+}
+
+.program-details .left .top {
+    float: left;
+    width: 100%;
+    background: #0365b1;
+    border-radius: 20px;
+    padding: 15px;
+    position: relative;
+    z-index: 20;
+}
+
+.program-details .left .top h1 {
+    float: left;
+    width: 100%;
+    margin-top: 0;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 28px;
+    padding-bottom: 5px;
+}
+
+.program-details .left .top p {
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.program-details .left .bottom {
+    float: left;
+    width: 100%;
+    background: #dff1ff;
+    position: relative;
+    z-index: 10;
+    border-radius: 20px;
+    padding-top: 55px;
+    margin-top: -34px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.program-details .left .bottom ul {
+    float: left;
+    width: 100%;
+    list-style: disc;
+    padding-left: 15px;
+}
+
+.program-details .left .bottom ul li {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #222222;
+}
+
+.program-details  .right {
+    float: left;
+    width: 100%;
+}
+
+.program-details .right .top {
+    float: left;
+    width: 100%;
+    background: #222222;
+    border-radius: 20px;
+    padding: 15px 15px 35px 15px;
+    position: relative;
+    z-index: 20;
+}
+
+.program-details .right .top h2 {
+    float: left;
+    width: 100%;
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+}
+
+.program-details .right .bottom {
+    background: linear-gradient(to right, #084b7c, #0365b1);
+    position: relative;
+    z-index: 30;
+    border-radius: 20px;
+    padding-top: 25px;
+    margin-top: -34px;
+    padding-left: 25px;
+    padding-right: 25px;
+    float: left;
+    width: 100%;
+}
+
+.program-details .right .bottom ul {
+    float: left;
+    width: 100%;
+}
+
+.program-details .right .bottom ul li {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.program-details .right .bottom ul li img {
+    float: left;
+    width: 80px;
+    border-radius: 10px;
+    margin-right: 15px;
+    border:1px solid #ffffff;
+}
+
+.program-details .right .bottom ul li span {
+    float: left;
+    width: calc(100% - 106px);
+    color: #ffffff;
+}
