@@ -163,8 +163,7 @@ header.header .social li a {
     color: #222222;
 }
 
-.header-bottom nav.navbar ul.navbar-nav li {
-}
+
 
 .header-bottom nav.navbar ul.navbar-nav {
     margin-left: 15px;
@@ -179,15 +178,21 @@ header.header .social li a {
     .navbar-expand-lg .navbar-toggler {
         display: none;
     }
+    .navbar-expand-lg .sr-text{
+        display: none;
+    }
 }
 .toolbox {
-    float: left;
+    /* float: left; */
     position: relative;
     z-index: 2000;
-    width: 70%;
+    /* width: 70%; */
     background: linear-gradient(to right, #084b7c, #0365b1);
     box-shadow: 7px 7px 16px -5px #000000;
     padding: 20px;
+    display: inline-block;
+    text-align: left;
+    border-radius: 10px;
 }
 
 .slider_conty {
@@ -255,6 +260,7 @@ header.header .social li a {
     width: 100%;
     margin: 0;
     background: #eae7ff;
+    text-align: center;
 }
 
 .custom_slider {
@@ -446,6 +452,27 @@ header.header .social li a {
 .slider.custom_slider button.slide-arrow.next-arrow {
     right: 5px;
 }
+.header-bottom nav.navbar .navbar-toggler-icon {
+    float: left;
+    width: 100%;
+}
+
+.header-bottom nav.navbar .navbar-toggler-icon .bar {
+    background: #ffffff;
+    height: 1px;
+    width: 20px;
+    float: left;
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.header-bottom nav.navbar button.navbar-toggler {
+    background: #084b7c;
+    border: 0;
+    border-radius: 6px;
+    padding: 10px;
+}
+
 
 
 /* ====Footer Section===== */
@@ -508,7 +535,7 @@ footer.footer .footer_box ul.social li.tiktok a img {
 
 footer.footer .footer_box h4 {
     color: #ffffff;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 25px;
     float: left;
     width: 100%;
@@ -677,6 +704,8 @@ footer.footer .footer_bottom p a:hover {
     border: 3px solid #0365b1;
     border-radius: 10px;
     padding: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .upcoming-bottom .left {
@@ -684,6 +713,7 @@ footer.footer .footer_bottom p a:hover {
     position: relative;
     width: 25%;
     margin-top: 7px;
+    text-align: center;
 }
 .upcoming-bottom .right .circle-date span b {
     display: inline-block;
@@ -755,7 +785,7 @@ footer.footer .footer_bottom p a:hover {
 
 .upcoming-bottom .left h2 {
     float: left;
-    width: 85%;
+    width: 100%;
 }
 
 .upcoming-bottom .left .step  .line {
@@ -822,7 +852,7 @@ footer.footer .footer_bottom p a:hover {
 
 .tab-section .tab-conty h3 {
     color: #084b7c;
-    font-size: 28px;
+    font-size: 21px;
     float: left;
     width: 100%;
     margin-bottom: 25px;
@@ -832,8 +862,8 @@ footer.footer .footer_bottom p a:hover {
 .tab-section .tab-conty p {
     float: left;
     width: 100%;
-    padding: 0 30px;
-    font-size: 18px;
+    padding: 6px 60px;
+    font-size: 14px;
     color: #222222;
 }
 
@@ -902,6 +932,8 @@ footer.footer .footer_bottom p a:hover {
     border-radius: 20px;
     overflow: hidden;
     padding: 15px;
+    background: #daefff;
+    border: 2px solid #084b7c;
 }
 
 .featured-box .image {
@@ -909,7 +941,7 @@ footer.footer .footer_bottom p a:hover {
     float: left;
     width: 100%;
     overflow: hidden;
-    border: 3px solid #de5c61;
+    border: 3px solid #084b7c;
 }
 
 .featured-box .details {
@@ -947,6 +979,7 @@ footer.footer .footer_bottom p a:hover {
 
 .featured-box .details p span {
     color: #084b7c;
+    font-weight: 500;
 }
 
 .featured-box .details p.time .right b {
@@ -1016,9 +1049,10 @@ footer.footer .footer_bottom p a:hover {
     background: #ffffff;
     box-shadow: 0px 0px 16px -5px #00000080;
     border-radius: 20px;
-    overflow: hidden;
-    margin-top: 25px;
+    /* overflow: hidden; */
+    margin-top: 49px;
     margin-bottom: 25px;
+    border: 1px solid #084b7c;
 }
 
 .evidence-conty .box span.no {
@@ -1053,6 +1087,7 @@ footer.footer .footer_bottom p a:hover {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0 0 20px 20px;
 }
 
 
@@ -1902,4 +1937,28 @@ footer.footer .footer_bottom p a:hover {
     float: left;
     width: calc(100% - 106px);
     color: #ffffff;
+}
+
+.evidence-conty .box .index-value {
+    display: inline-block;
+    background: #084b7c;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 20px 16px -10px #000000a3;
+    border: 3px solid #084b7c;
+    border-top: 0;
+    margin-top: -22px;
+}
+
+.evidence-conty .box .index-value span.no {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.evidence-conty .box .index-value span.of {
+    color: #084b7c;
+    background: #daefff;
+    padding: 0 10px;
+    font-size: 19px;
 }
