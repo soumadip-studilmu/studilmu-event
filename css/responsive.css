@@ -1,6 +1,8 @@
 /* Mobile device */
 @media only screen and (min-width:320px) and (max-width:480px) {
-
+.lightbox-image {
+    height: auto;
+}
     .top-button {
         width: 100%;
         margin-top: 10px;
@@ -466,17 +468,200 @@
     #back-to-top {
         right: -10px;
     }
-    
-    
+    .testimonial-bg {
+    margin-top: 0;
+}
+
+
+.testi-box .bottom span.company-name {
+    font-size: 15px;
+}
+
+.testi-box .bottom {
+    width: 93%;
+}
+.btn-blue {
+    font-size: 15px;
+    padding: 5px 7px;
+    margin-right: 0;
+    float: none;
+    display: inline-block;
+}
+
+.event_main_image .left {
+    margin-bottom: 15px;
+}
+
+.event_main_image .right h2 {
+    font-size: 18px;
+}
+
+.event_main_image .right .widget .sm-heading {
+    margin-top: 5px;
+}
+
+.event_main_image .right .widget {
+    margin-bottom: 0;
+}
+
+.event-details {
+    padding: 0 15px;
+}
+
+.event-details .event-heading {
+    font-size: 20px;
+}
+
+.event-details .date-time {
+    font-size: 15px;
+}
+
+.last-image {
+    width: 100%;
+} 
+.event-details .price {
+    width: 100%;
+}
+.center {
+    background: none;
+    top: 0;
+    height: auto;
+    transform: none;
+    position: relative;
+    left: auto;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.left-programs {
+    width: 100%;
+}
+
+.right-programs {
+    width: 100%;
+}
+
+.program-list {
+    min-height: auto;
+}
+
+.program li {
+    top: auto !important;
+    margin-bottom: 5px;
+}
+
+.center h2 {
+    font-size: 21px;
+}
+
+.center h2 br {
+    display: none;
+}
+
+.map {
+    margin-top: 0;
+}
+
+.program li a .name {
+    float: left;
+    margin-left: 10px;
+    margin-right: 0;
+    font-size: 15px;
+}
+
+.program li a .number {
+    float: left;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+}
 }
 
 @media only screen and (min-width:481px) and (max-width:767px) {
+
+    .center {
+        background: none;
+        top: 0;
+        height: auto;
+        transform: none;
+        position: relative;
+        left: auto;
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .left-programs {
+        width: 100%;
+    }
+    
+    .right-programs {
+        width: 100%;
+    }
+    
+    .program-list {
+        min-height: auto;
+    }
+    
+    .program li {
+        top: auto !important;
+        margin-bottom: 5px;
+        width: 49%;
+    }
+    
+    .center h2 {
+        font-size: 21px;
+    }
+    
+    .center h2 br {
+        display: none;
+    }
+    
+    .map {
+        margin-top: 0;
+    }
+    
+    .program li a .name {
+        float: left;
+        margin-left: 10px;
+        margin-right: 0;
+        font-size: 15px;
+    }
+    
+    .program li a .number {
+        float: left;
+        font-size: 14px;
+        width: 30px;
+        height: 30px;
+    }
+    .program li:nth-child(even) {
+        float: right;
+    }
+    .event_main_image .left {
+        margin-bottom: 15px;
+    }
+    
+    .event_main_image .right .widget .sm-heading {
+        margin-top: 0;
+    }
+    
+    .event-details {
+        padding: 0 15px;
+    }
+    
+    .event-details .price {
+        width: 49%;
+        margin-right: 5px;
+    }
+    .lightbox-image{
+        height: auto;
+    }
     header.header .search {
         width: auto;
         float: right;
         margin-bottom: 10px;
     }
-    
     .logo {
         float: left;
         margin-bottom: 10px;
@@ -693,10 +878,59 @@
 .map_block {
     padding: 15px;
 }
+.testimonial_text p {
+    min-height: auto;
+}
+
+.testimonial_text span.ev-name {
+    min-height: auto;
+}
+.testi-box .bottom {
+    width: 96%;
+}
+
 }
 
 
 @media only screen and (min-width:768px) and (max-width:1023px) {
+    .event_main_image .left {
+        margin-bottom: 15px;
+    }
+    
+    .event_main_image .right .widget .sm-heading {
+        margin-top: 0;
+    }
+    
+    .event-details {
+        padding: 0 20px;
+    }
+    .btn-blue {
+        font-size: 15px;
+        padding: 5px 7px;
+        margin-right: 0;
+        display: inline-block;
+    }
+    .btn-blue ~ .btn-category {
+        display: none;
+    }
+    .testimonial_text p {
+    min-height: auto;
+}
+
+.testimonial_text span.ev-name {
+    min-height: auto;
+}
+.testi-box .bottom {
+    width: 96%;
+}
+    .light-box {
+    width: 48%;
+    margin-right: 13px;
+}
+
+.lightbox-image {
+    height: 200px;
+}
     .heading:after {
         display: none;
     }
@@ -840,11 +1074,200 @@
         font-size: 13px;
         height: 105px;
     }
+
+    .program li a .name {
+        margin-right: 4px;
+        margin-top: 0;
+        border-right: 1px solid #222222;
+        padding-right: 4px;
+    }
+    
+    .program li a {
+        font-size: 11px;
+    }
+    
+    .program li a .number {
+        font-size: 12px;
+        width: auto;
+        height: auto;
+        background: none;
+        color: #222222;
+    }
+    
+    .left-programs {
+        width: 28%;
+    }
+    
+    .right-programs {
+        width: 28%;
+    }
+    
+    .center {
+        width: 450px;
+        height: 450px;
+        top: 52%;
+    }
+    .program-list {
+        min-height: 417px;
+    }
+    
+    .right-programs .program li .name {
+        margin-left: 4px;
+        border-right: 0;
+        padding-right: 0;
+        padding-left: 4px;
+        border-left: 1px solid #222222;
+    }
+    
+     .program li:nth-child(2) {
+        top: 31px;
+    }
+    .program li:nth-child(3) {
+        top: 61px;
+    }
+    
+    .program li:nth-child(4) {
+        top: 85px;
+    }
+    
+    .program li:nth-child(5) {
+        top: 114px;
+    }
+    
+    .program li:nth-child(6) {
+        top: 146px;
+    }
+    
+    .program li:nth-child(7) {
+        top: 175px;
+    }
+    
+    .program li:nth-child(8) {
+        top: 201px;
+    }
+    
+    .program li a:hover {
+        background: #d3d3d3;
+        color: #000000;
+    }
+    
+    .program li a:hover .number {
+        background: none;
+        color: #000;
+    }
+    
+    .customized span {
+        font-size: 18px;
+    }
+    
+    .center h2 {
+        font-size: 22px;
+    }
 }
 
 /* Laptops */
 
 @media only screen and (min-width:1024px) and (max-width:1200px) {
+    .program-details .left .top h1 {
+        font-size: 25px;
+    }
+    
+    .program-details .left .top p {
+        font-size: 17px;
+    }
+    
+    .program-details .left .bottom {
+        margin-bottom: 15px;
+    }
+    
+    .program-details .right .bottom {
+        padding: 15px;
+    }
+    
+    .program-details .right .top h2 {
+        text-align: left;
+        font-size: 16px;
+    }
+    
+    .program-details .right .top h2 {
+        font-size: 12px;
+    }
+    
+    .program-details .right .bottom ul li img {
+        width: 60px;
+        margin-right: 10px;
+    }
+    
+    .program-details .right .bottom ul li span {
+        width: calc(100% - 70px);
+        font-size: 13px;
+    }
+    .program li a {
+        font-size: 15px;
+    }
+    
+    .program li a .number {
+        font-size: 17px;
+    }
+    
+    .center h2 {
+        font-size: 24px;
+    }
+    .event_main_image .left {
+        margin-bottom: 15px;
+    }
+    
+    .event_main_image .right .widget .sm-heading {
+        margin-top: 0;
+    }
+    
+    .event-details {
+        padding: 0 20px;
+    }
+    .btn-blue {
+        font-size: 15px;
+        padding: 8px 7px;
+        margin-right: 0;
+        display: inline-block;
+    }
+
+    .btn-blue ~ .btn-category {
+        display: none;
+    }
+
+.event_main_image .right h2 {
+    font-size: 13px;
+}
+    .testimonial_text p {
+        min-height: 111px;
+    }
+    
+    .testimonial_text span.ev-name {
+        min-height: 83px;
+    }
+    
+    .testi-box .bottom {
+        width: 96%;
+    }
+    
+    .testi-box .bottom {
+        width: 93%;
+    }
+    
+    .testi-box .bottom span.company-name {
+        font-size: 14px;
+    }
+    
+    .testimonial_text span.author {
+        min-height: 60px;
+    }
+    .lightbox-image {
+    height: 180px;
+}
+
+.lightbox-image img {
+    object-fit: contain;
+}
     .prakerja_logo {width: 130px;}
 
 .top-button .btn-category {
