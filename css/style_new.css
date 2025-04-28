@@ -81,7 +81,7 @@ header.header .social li {
 }
 header.header .social li a {
     font-size: 17px;
-    line-height: 30px;
+    line-height: 23px;
     color: #151515;
     transition: all ease 0.3s;
 }
@@ -162,8 +162,9 @@ header.header .social li a {
 .header-bottom nav.navbar ul li a {
     font-size: 21px;
     margin-right: 60px;
-    font-weight: normal;
+    font-weight: 600;
     color: #222222;
+    font-family: "Exo 2", sans-serif;
 }
 
 
@@ -533,7 +534,7 @@ footer.footer .footer_box ul.social li a {
 }
 
 footer.footer .footer_box ul.social li.tiktok a img {
-    width: 23px;
+    /* width: 23px; */
 }
 
 footer.footer .footer_box h4 {
@@ -640,7 +641,7 @@ footer.footer .footer_bottom p a:hover {
     padding: 25px 0;
 }
 
-.heading {display: inline-block;position: relative;color: #084b7c;font-size: 36px;}
+.heading {display: inline-block;position: relative;color: #084b7c;font-size: 36px; font-weight: bold;}
 
 .heading:after {
     content: "";
@@ -898,11 +899,19 @@ footer.footer .footer_bottom p a:hover {
 
 .sm-box span {
     font-size: 30px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: bold;
 }
 
 .sm-box p {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
+    font-family: "Exo 2", sans-serif;
+    background: #ffffff30;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: 1px solid #ffffff30;
 }
 
 .featured {
@@ -1667,10 +1676,10 @@ footer.footer .footer_bottom p a:hover {
     border-radius: 5px;
     z-index: 10;
     text-align: center;
-    background: url(../images/center-circle-bg.png) no-repeat center;
+    background: url(../images/circle-bg-new.png) no-repeat center;
     background-size: 100% 100%;
-    width: 539px;
-    height: 527px;
+    width: 636px;
+    height: 545px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1681,6 +1690,7 @@ footer.footer .footer_bottom p a:hover {
     font-size: 32px;
     color: #500003;
     width: 100%;
+    /* margin-left: -10px; */
 }
 
 .program-list {
@@ -1799,6 +1809,7 @@ footer.footer .footer_bottom p a:hover {
     float: left;
     width: 167px;
     height: 107px;
+    /* margin-left: -10px; */
 }
 
 .customized span {
@@ -1969,4 +1980,13 @@ footer.footer .footer_bottom p a:hover {
 footer.footer .footer_box ul.footer_list li a img {
     width: 17px;
     margin-right: 5px;
+}
+
+
+header.header .social li.yt a img {
+    width: 35px;
+}
+
+header.header .social li.yt {
+    width: 35px;
 }
